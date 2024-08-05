@@ -1,0 +1,68 @@
+body{
+    font-family: "Inter", serif;
+    font-size: 16px;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    position: fixed; /* Fixes the navbar to the top */
+    top: 0; /* Positions the navbar at the top */
+    width: 100%; /* Ensures the navbar spans the full width */
+    background-color: white; /* Set a background color to avoid content beneath showing through */
+    z-index: 1000; /* Ensures the navbar is above other content */
+    padding: 35px 0px; /* Adjust padding as needed */
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1); /* Optional: adds a slight shadow for better visibility */
+}
+
+.zerodha{
+    margin-left: 80px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li {
+    margin: 0 30px; /* Adjust this value to increase/decrease space */
+}
+
+.nav-links li a{
+    color: rgb(94, 93, 93);
+    text-decoration: none;
+}
+
+.container{
+    margin-top: 150px;
+    margin-left: 320px;
+}
+
+.container pre{
+    font-size: 50px;
+    margin-left: 190px;
+    margin-bottom: 0;
+}
+
+.container p{
+    font-size: 25px;
+    margin-left: 0px;
+    margin-bottom: 70px;
+}
+
+.button{
+    font-size: 25px;
+    margin-left: 335px;
+    background-color: #387ed1;
+    color: #fff;
+    padding: 10px 40px;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+}
